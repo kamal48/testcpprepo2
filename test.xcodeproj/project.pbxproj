@@ -47,7 +47,7 @@
 		A3DD324020CB96C20020BC27 = {
 			isa = PBXGroup;
 			children = (
-				A3DD324B20CB96C20020BC27 /* test */,
+				A3DD324B20CB96C20020BC27 /* testschools */,
 				A3DD324A20CB96C20020BC27 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -60,7 +60,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A3DD324B20CB96C20020BC27 /* test */ = {
+		A3DD324B20CB96C20020BC27 /* testschools */ = {
 			isa = PBXGroup;
 			children = (
 				A3DD324C20CB96C20020BC27 /* main.cpp */,
@@ -69,7 +69,7 @@
 				A3DD325620CB96F10020BC27 /* Student.cpp */,
 				A3DD325520CB96F00020BC27 /* Student.h */,
 			);
-			path = test;
+			path = testschools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

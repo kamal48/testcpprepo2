@@ -1,5 +1,6 @@
 #include "Student.h"
 #include<vector>
+#include <string>
 class School {
 public:
     int _numStudents;
@@ -13,6 +14,8 @@ public:
 	int getNumStudents();
 	void setNumStudents(int n) ;
     void populateStudents(int n);
-    void printAllDetails();
+    void printAllDetails()  const;
+    void clearAllDetails();
+    void modifyDetails(int n, const std::string &k);
 };
 

@@ -1,8 +1,8 @@
 #include <string>
 class Student {
     int _studentId;
-    std::string _name;
 public:
+    std::string _name;
     Student();
     Student(int studentId);
     int getStudentId();
