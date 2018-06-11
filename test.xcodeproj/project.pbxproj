@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A3538D2C20CD60DA00696F28 /* CompanyDataBaseManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3538D2A20CD60DA00696F28 /* CompanyDataBaseManager.cpp */; };
+		A3538D2F20CD629700696F28 /* Company.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3538D2D20CD629700696F28 /* Company.cpp */; };
+		A3538D3220CD671D00696F28 /* Employee.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3538D3020CD671D00696F28 /* Employee.cpp */; };
 		A3DD324D20CB96C20020BC27 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3DD324C20CB96C20020BC27 /* main.cpp */; };
 		A3DD325720CB96F10020BC27 /* School.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3DD325420CB96F00020BC27 /* School.cpp */; };
 		A3DD325820CB96F10020BC27 /* Student.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3DD325620CB96F10020BC27 /* Student.cpp */; };
@@ -25,6 +28,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A3538D2A20CD60DA00696F28 /* CompanyDataBaseManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CompanyDataBaseManager.cpp; sourceTree = "<group>"; };
+		A3538D2B20CD60DA00696F28 /* CompanyDataBaseManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CompanyDataBaseManager.h; sourceTree = "<group>"; };
+		A3538D2D20CD629700696F28 /* Company.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Company.cpp; sourceTree = "<group>"; };
+		A3538D2E20CD629700696F28 /* Company.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Company.h; sourceTree = "<group>"; };
+		A3538D3020CD671D00696F28 /* Employee.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Employee.cpp; sourceTree = "<group>"; };
+		A3538D3120CD671D00696F28 /* Employee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
 		A3DD324920CB96C20020BC27 /* test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = test; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3DD324C20CB96C20020BC27 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A3DD325320CB96F00020BC27 /* School.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = School.h; sourceTree = "<group>"; };
@@ -47,6 +56,12 @@
 		A3DD324020CB96C20020BC27 = {
 			isa = PBXGroup;
 			children = (
+				A3538D2A20CD60DA00696F28 /* CompanyDataBaseManager.cpp */,
+				A3538D2B20CD60DA00696F28 /* CompanyDataBaseManager.h */,
+				A3538D2D20CD629700696F28 /* Company.cpp */,
+				A3538D2E20CD629700696F28 /* Company.h */,
+				A3538D3020CD671D00696F28 /* Employee.cpp */,
+				A3538D3120CD671D00696F28 /* Employee.h */,
 				A3DD324B20CB96C20020BC27 /* testschools */,
 				A3DD324A20CB96C20020BC27 /* Products */,
 			);
@@ -128,9 +143,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3538D2C20CD60DA00696F28 /* CompanyDataBaseManager.cpp in Sources */,
 				A3DD325820CB96F10020BC27 /* Student.cpp in Sources */,
+				A3538D2F20CD629700696F28 /* Company.cpp in Sources */,
 				A3DD324D20CB96C20020BC27 /* main.cpp in Sources */,
 				A3DD325720CB96F10020BC27 /* School.cpp in Sources */,
+				A3538D3220CD671D00696F28 /* Employee.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
